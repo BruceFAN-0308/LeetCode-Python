@@ -16,5 +16,6 @@ class Solution:
                 return len(word1)
         return -1
 
+
 if __name__ == '__main__':
-    Solution.findLUSlength("aaa", "aaa", "aa")
+    print(Solution.findLUSlength(Solution, ["aaa", "aaa", "aa"]))
